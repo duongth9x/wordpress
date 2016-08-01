@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CrossBrowser/MultiBrowser]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Test wordpress in firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="test.WordpressTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="bai3"/>
+        </methods>
+      </class> <!-- test.WordpressTest -->
+    </classes>
+  </test> <!-- Test wordpress in firefox(failed) -->
+</suite> <!-- Failed suite [CrossBrowser/MultiBrowser] -->

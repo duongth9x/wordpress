@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CrossBrowser/MultiBrowser" duration-ms="79511" started-at="2016-07-31T05:25:22Z" finished-at="2016-07-31T05:26:42Z">
+    <groups>
+    </groups>
+    <test name="Test wordpress in firefox" duration-ms="79511" started-at="2016-07-31T05:25:22Z" finished-at="2016-07-31T05:26:42Z">
+      <class name="test.WordpressTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test.WordpressTest@1057a39]" name="setUp" is-config="true" duration-ms="13120" started-at="2016-07-31T12:25:22Z" finished-at="2016-07-31T12:25:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bai3()[pri:0, instance:test.WordpressTest@1057a39]" name="bai3" duration-ms="66336" started-at="2016-07-31T12:25:36Z" finished-at="2016-07-31T12:26:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bai3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.WordpressTest@1057a39]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-07-31T12:26:42Z" finished-at="2016-07-31T12:26:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.WordpressTest -->
+    </test> <!-- Test wordpress in firefox -->
+  </suite> <!-- CrossBrowser/MultiBrowser -->
+</testng-results>
